@@ -11,6 +11,9 @@
 		4F18C1B02B2E624100E2EB9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F18C1AF2B2E624100E2EB9B /* ContentView.swift */; };
 		4F18C1B22B2E625000E2EB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F18C1B12B2E625000E2EB9B /* Assets.xcassets */; };
 		4F18C1B52B2E625000E2EB9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F18C1B42B2E625000E2EB9B /* Preview Assets.xcassets */; };
+		4F18C1BE2B2E634F00E2EB9B /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F18C1BD2B2E634F00E2EB9B /* FirstView.swift */; };
+		4F18C1C12B2E63AD00E2EB9B /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F18C1C02B2E63AD00E2EB9B /* SecondView.swift */; };
+		4F18C1C62B2E6F5800E2EB9B /* SharedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F18C1C52B2E6F5800E2EB9B /* SharedState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		4F18C1B12B2E625000E2EB9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F18C1B42B2E625000E2EB9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F18C1B62B2E625000E2EB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F18C1BD2B2E634F00E2EB9B /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		4F18C1C02B2E63AD00E2EB9B /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		4F18C1C52B2E6F5800E2EB9B /* SharedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,9 @@
 		4F18C1AC2B2E624100E2EB9B /* StateDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4F18C1C52B2E6F5800E2EB9B /* SharedState.swift */,
+				4F18C1C02B2E63AD00E2EB9B /* SecondView.swift */,
+				4F18C1BD2B2E634F00E2EB9B /* FirstView.swift */,
 				4F18C1AD2B2E624100E2EB9B /* StateDemoApp.swift */,
 				4F18C1AF2B2E624100E2EB9B /* ContentView.swift */,
 				4F18C1B12B2E625000E2EB9B /* Assets.xcassets */,
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F18C1B02B2E624100E2EB9B /* ContentView.swift in Sources */,
+				4F18C1BE2B2E634F00E2EB9B /* FirstView.swift in Sources */,
+				4F18C1C12B2E63AD00E2EB9B /* SecondView.swift in Sources */,
+				4F18C1C62B2E6F5800E2EB9B /* SharedState.swift in Sources */,
 				4F18C1AE2B2E624100E2EB9B /* StateDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
